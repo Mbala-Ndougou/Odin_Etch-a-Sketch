@@ -7,10 +7,10 @@ let size = 1600;
 
 function createGrid(rows, cols) {
     for(let i = 0; i< rows; i++){
-        console.log("Row");
+        // console.log("Row");
         
         for(let j = 0; j < cols ; j++){
-            console.log("Col");
+            // console.log("Col");
             
             let item = document.createElement("div")
             item.classList.add("item")
@@ -45,14 +45,9 @@ btn.addEventListener("click",()=>{
     rows = parseInt(rqt)
     cols = parseInt(rqt)
 
-    // ZONE ROUGE
-    // 
     
-    console.log(parseInt(container.style.width));
-    
-    
-    // 
-    // ZONE ROUGE
+    // console.log(parseInt(container.style.width));
+
 
     createGrid(rows, cols)
     
