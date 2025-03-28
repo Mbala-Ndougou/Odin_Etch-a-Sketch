@@ -1,0 +1,23 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1600px;
+    Height: 1600px;
+}
+
+#request{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(15, 85, 85);
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+}
+.item{
+    box-sizing: border-box;
+    border: 1px dimgray black;
+    /* width: 100px;
+    height: 100px; */
+}
